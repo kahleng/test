@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>レイアウト</title>
+    <link rel="stylesheet"type="text/css"href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js"></script>
+    
+    
+
+        <script>
+        $(document).ready(function(){$('.abc').bxSlider({
+              aute: true,       
+              mode: 'horizontal',
+              speed: 2000,
+              slidewidth: 400
+                            });
+        });
+        </script>
+</head>
+    
+    
+    
+    
+<body>
+
+<img src="4eachblog_logo.jpg">
+<header>
+    <ul>
+    <li>トップ</li>
+    <li>プロフィール</li>
+    <li>4eachについて</li>
+    <li>登録フォーム</li>
+    <li>問い合わせ</li>
+    <li>その他</li>
+    </ul>
+</header>
+
+<main>
+    
+    
+<div class="main">
+    
+   
+<h1>プログラミングの役立つ書籍</h1>
+<h2>2017年1月15日</h2>
+        
+<div class=".abc">
+<img src="bookstore.jpg">
+<img src="pic1.jpg">
+<img src="pic2.jpg">
+</div>
+<script>
+    $(document).ready(function(){
+      $('.abc').bxSlider({
+          aute: true,
+          
+          mode: 'horizontal',
+          speed: 2000,
+          slidewidth: 400,
+                        });
+    });
+    </script>        
+        
+<h3>4eachはインターノウスが提供するオンラインでプログラミングが勉強できるイーランニングシステムです。</h3>
+<h4>記事中身</h4>
+    
+ 
+
+<div class="gray_box1">
+     
+  <div class="box2">
+     
+    <div class="box_pic1">
+    <img src="pic1.jpg">
+    <p>ドメイン取得方法</p>
+    </div>
+      
+    <div class="box_pic1">
+    <img src="pic2.jpg">
+    <p>快適な職場環境</p>
+    </div>
+      
+    <div class="box_pic1">
+    <img src="pic3.jpg">
+    <p>Linuxの基礎</p>
+    </div>
+      
+    <div class="box_pic1">
+    <img src="pic4.jpg">
+    <p>マーケティング入門</p>    
+    </div>
+      
+      
+     
+  </div>
+    
+            
+<div class="box3">
+    <div class="boxpic2">
+        <img src="pic5.jpg">
+        <p>アクティブラーニング</p>
+    </div>
+    
+    <div class="boxpic2">
+        <img src="pic6.jpg">
+        <p>CSSの効率的な勉強方法</p>
+    </div>
+    
+    <div class="boxpic2">    
+        <img src="pic7.jpg">
+        <p>リーダブルコードとは</p>
+    </div>
+    
+    <div class="boxpic2">
+        <img src="pic8.jpg">
+        <p>HTML5の可能性</p>
+    </div>
+    
+</div>
+</div>
+</div>
+    
+</main>
+    
+<div class="right">
+  <div class="a">
+    <h2>人気の記事</h2>
+  </div>
+    
+    <li>PHP オススメ本</li>
+    <li>PHP MyAdminの使い方</li>
+    <li>今人気のエディタ</li>
+    <li>HTMLの基礎</li>
+    
+  <div class="b">
+    <h2>オススメリンク</h2>
+  </div>
+    <li>インターノウス株式会社</li>
+    <li>XMAPPのダウンロード</li>
+    <li>Eclipseのダウンロード</li>
+    <li>Braketsのダウンロード</li>
+  <div class="c">
+    <h2>カテゴリ</h2>
+  </div>
+    <li>HTML</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+    <li>JavaScript</li>
+    
+</div>
+    
+<footer>
+copylight internous | 4each blog is the one which provides A to Z about programming.    
+</footer>
+    
+</body>
+</html>
