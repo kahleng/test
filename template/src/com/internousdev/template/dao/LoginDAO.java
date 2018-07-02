@@ -12,7 +12,6 @@ public class LoginDAO {
 
 		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
-		System.out.println(connection);
 		LoginDTO loginDTO = new LoginDTO();
 		String sql = "SELECT * FROM login_user_transaction where login_id = ? AND login_pass = ?";
 	try{
@@ -38,3 +37,7 @@ public class LoginDAO {
 	return loginDTO;
 	}
 }
+
+
+
+

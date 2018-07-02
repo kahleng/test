@@ -5,7 +5,7 @@ drop database if exists ecsite;
 create database if not exists ecsite;
 use ecsite;
 
-drop table if exist login_user_transaction;
+drop table if exists login_user_transaction;
 
 create table login_user_transaction(
 	id int not null primary key auto_increment,
@@ -34,10 +34,10 @@ create table user_buy_item_transaction(
 	item_transaction_id int,
 	total_price int,
 	total_count int,
-	user_master_id varchar(16)
+	user_master_id varchar(16),
 	pay varchar(30),
 	insert_date datetime,
-	delate_date datetime
+	delete_date datetime
 );
 
 INSERT INTO item_info_transaction(item_name, item_price, item_stock)VALUES("ノートBook", 100, 50);
